@@ -1,0 +1,7 @@
+.aside {
+  @extend .card;
+
+  @media (min-width: $break) {
+    width: 380px;
+  }
+}

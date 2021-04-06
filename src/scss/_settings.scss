@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: $fontFamily1;
+  font-size: $initialFontSize;
+  background: $bodyBgColor;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 100%;
+  margin: 20px auto;
+  padding: 0 15px;
+  max-width: $container-MaxWidth;
+
+  @media (min-width: $break) {
+    display: flex;
+  }
+}
+
+.main {
+  margin-top: 20px;
+
+  @media (min-width: $break) {
+    width: 100%;
+    margin: 0 30px;
+  }
+}

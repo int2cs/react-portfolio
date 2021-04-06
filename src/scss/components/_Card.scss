@@ -1,0 +1,66 @@
+.card {
+  margin-bottom: 20px;
+
+  .article {
+    background: $white;
+
+    h3 {
+      color: $color1;
+      text-transform: uppercase;
+    }
+
+    img {
+      width: 100%;
+    }
+    p {
+      line-height: 1.4em;
+      color: $articleParagrapheColor;
+    }
+    .contenue {
+      background: $white;
+      padding: 15px;
+      margin: 0;
+    }
+
+    ul.langages {
+      display: flex;
+
+      li {
+        list-style: none;
+        margin-right: 30px;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .main-footer {
+    height: 37px;
+    display: flex;
+    justify-content: space-between;
+    background: $card-Footer;
+    border: 1px solid $card-FooterBorder;
+    box-sizing: border-box;
+    border-radius: 0px 0px 5px 5px;
+    padding: 10px 10px;
+
+    .main-footer-like::before {
+      content: "";
+      display: inline-block;
+      width: 20px;
+      height: 18px;
+      background: center/contain no-repeat url("../../assets/img/svg/like.svg");
+      vertical-align: middle;
+      transform: translateY(-20%);
+      margin: 0 5px;
+    }
+    .main-footer-comment::before {
+      content: "";
+      display: inline-block;
+      width: 20px;
+      height: 18px;
+      background: center/contain no-repeat url("../../assets/img/svg/com.svg");
+      vertical-align: middle;
+      margin: 0 5px;
+    }
+  }
+}

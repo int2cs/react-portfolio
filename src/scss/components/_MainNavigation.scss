@@ -1,0 +1,42 @@
+.topbar {
+  color: $white;
+  background: $color1;
+
+  .topbar-logo {
+    font-size: 2em;
+    display: block;
+    text-align: center;
+  }
+
+  .topbar-nav {
+    text-align: center;
+
+    a {
+      text-transform: capitalize;
+      display: inline-block;
+      padding: 0 12px;
+      color: $topbarNav-Color;
+      transition: color 0.3s;
+
+      &:hover,
+      &.active {
+        color: $white;
+      }
+    }
+  }
+  @media (min-width: $break) {
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+
+    .topbar-logo,
+    .topbar-nav {
+      padding: 0;
+    }
+    .topbar-nav {
+      margin: 0 20px;
+    }
+  }
+}
