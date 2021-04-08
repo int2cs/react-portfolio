@@ -10,20 +10,67 @@ const Card = () => {
       <article className="aboutMe">
         <h2>Présentation</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eum
-          iusto et assumenda recusandae, aliquam necessitatibus, maxime, earum
-          sit delectus qui. Nemo distinctio architecto fuga impedit at veniam
-          quis animi quisquam, ratione ut eveniet quas reiciendis aliquam dolor
-          minus aspernatur necessitatibus. Repudiandae molestiae, ullam
-          provident sunt unde hic impedit, nobis at atque beatae illo eveniet
-          debitis, repellendus totam dolorum. Eveniet ad culpa officia magni
-          voluptate, nulla explicabo. Ullam quidem totam quibusdam veritatis eum
-          fugiat, nam quo, cupiditate nesciunt, unde hic voluptate? Ipsa iure
-          tenetur architecto tempora iste error nam ullam ratione nemo totam,
-          iusto nihil recusandae! Iusto tenetur porro fugit ratione itaque non
-          quo consequuntur maiores voluptatum eligendi suscipit esse tempore
-          repellat quaerat, sit molestiae harum eaque, doloribus quasi. Sit
-          repellat voluptates odio esse exercitationem.
+          Passionné d'informatique et ayant commencé la programmation très tôt,
+          j'ai décidé de tout plaquer pour me lancer dans une nouvelle aventure.
+          <br />
+          Mon but : <em>Vivre de ma passion !</em>
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sequi
+          repudiandae, earum molestiae, aperiam placeat voluptatem recusandae
+          sit aliquid aut autem pariatur. Temporibus ipsa necessitatibus nulla
+          sunt natus perspiciatis voluptatibus, odit libero beatae accusantium
+          reprehenderit dolorum nostrum nemo facilis ex iusto maxime voluptate
+          enim, aliquid tenetur voluptatum amet. Sequi, quos cupiditate?
+          Dolores, dolor natus. Modi molestiae atque ea similique iste
+          distinctio odit nisi sunt natus quos harum iure sapiente sed
+          perferendis, ratione temporibus, repellat aut deleniti veritatis
+          corrupti cupiditate. Ex libero cum, ducimus nam veritatis quos
+          repellendus sapiente animi dignissimos nemo quod? Dolores quo aperiam,
+          voluptatem, repellat veritatis ipsa assumenda est nisi quaerat, fugiat
+          officiis? Quae, et voluptates! Quae dignissimos, sit error maiores,
+          non ipsa quis molestiae tempora quasi reprehenderit necessitatibus
+          placeat obcaecati. Modi culpa quas pariatur consequatur atque qui
+          eaque ad voluptate? Sequi iusto, eum pariatur autem quod modi cumque
+          magnam tempore excepturi? Debitis numquam ratione hic natus. A.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sequi
+          repudiandae, earum molestiae, aperiam placeat voluptatem recusandae
+          sit aliquid aut autem pariatur. Temporibus ipsa necessitatibus nulla
+          sunt natus perspiciatis voluptatibus, odit libero beatae accusantium
+          reprehenderit dolorum nostrum nemo facilis ex iusto maxime voluptate
+          enim, aliquid tenetur voluptatum amet. Sequi, quos cupiditate?
+          Dolores, dolor natus. Modi molestiae atque ea similique iste
+          distinctio odit nisi sunt natus quos harum iure sapiente sed
+          perferendis, ratione temporibus, repellat aut deleniti veritatis
+          corrupti cupiditate. Ex libero cum, ducimus nam veritatis quos
+          repellendus sapiente animi dignissimos nemo quod? Dolores quo aperiam,
+          voluptatem, repellat veritatis ipsa assumenda est nisi quaerat, fugiat
+          officiis? Quae, et voluptates! Quae dignissimos, sit error maiores,
+          non ipsa quis molestiae tempora quasi reprehenderit necessitatibus
+          placeat obcaecati. Modi culpa quas pariatur consequatur atque qui
+          eaque ad voluptate? Sequi iusto, eum pariatur autem quod modi cumque
+          magnam tempore excepturi? Debitis numquam ratione hic natus. A.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sequi
+          repudiandae, earum molestiae, aperiam placeat voluptatem recusandae
+          sit aliquid aut autem pariatur. Temporibus ipsa necessitatibus nulla
+          sunt natus perspiciatis voluptatibus, odit libero beatae accusantium
+          reprehenderit dolorum nostrum nemo facilis ex iusto maxime voluptate
+          enim, aliquid tenetur voluptatum amet. Sequi, quos cupiditate?
+          Dolores, dolor natus. Modi molestiae atque ea similique iste
+          distinctio odit nisi sunt natus quos harum iure sapiente sed
+          perferendis, ratione temporibus, repellat aut deleniti veritatis
+          corrupti cupiditate. Ex libero cum, ducimus nam veritatis quos
+          repellendus sapiente animi dignissimos nemo quod? Dolores quo aperiam,
+          voluptatem, repellat veritatis ipsa assumenda est nisi quaerat, fugiat
+          officiis? Quae, et voluptates! Quae dignissimos, sit error maiores,
+          non ipsa quis molestiae tempora quasi reprehenderit necessitatibus
+          placeat obcaecati. Modi culpa quas pariatur consequatur atque qui
+          eaque ad voluptate? Sequi iusto, eum pariatur autem quod modi cumque
+          magnam tempore excepturi? Debitis numquam ratione hic natus. A.
         </p>
       </article>
 

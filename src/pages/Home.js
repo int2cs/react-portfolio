@@ -1,12 +1,5 @@
 import React, { useState } from "react";
-import {
-  Aside,
-  Card,
-  AsideNavigation,
-  MainNavigation,
-  CardHeader,
-  CardFooter,
-} from "../components";
+import { Aside, AsideNavigation, MainNavigation, Card } from "../components";
 import { bdd } from "../bdd";
 
 const Home = () => {
@@ -17,20 +10,17 @@ const Home = () => {
       <div className="container">
         <AsideNavigation />
         <div className="main">
-          {data.map((res) => (
-            <section className="card">
-              <CardHeader />
-              <article className="article">
-                <img src={res.image} alt="Projet" />
-                <div className="contenue">
-                  <h3>{res.name}</h3>
-                  <p>{res.description}</p>
-                </div>
-              </article>
-              <CardFooter nbrLike={res.like} />
-            </section>
+          {data.map((res, index) => (
+            <Card
+              key={index}
+              title={res.name}
+              content={res.description}
+              img={res.image}
+              link={res.link}
+              nbrLikes={res.like}
+              comments={res.comments}
+            />
           ))}
-          <Card />
         </div>
         <Aside />
       </div>

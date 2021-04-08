@@ -1,4 +1,9 @@
 .aboutMe {
   background: $white;
   padding: 15px;
+
+  p {
+    margin: 10px 0;
+    line-height: 1.5em;
+  }
 }

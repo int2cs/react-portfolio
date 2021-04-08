@@ -5,15 +5,28 @@
     background: $white;
 
     h3 {
+      position: relative;
+      display: inline-block;
       color: $color1;
       text-transform: uppercase;
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -3px;
+        width: 100%;
+        height: 3px;
+        background: $color1;
+      }
     }
 
     img {
       width: 100%;
     }
     p {
-      line-height: 1.4em;
+      margin: 10px 0;
+      line-height: 1.5em;
       color: $articleParagrapheColor;
     }
     .contenue {
@@ -34,33 +47,37 @@
   }
 
   .main-footer {
-    height: 37px;
-    display: flex;
-    justify-content: space-between;
+    min-height: 37px;
     background: $card-Footer;
     border: 1px solid $card-FooterBorder;
     box-sizing: border-box;
     border-radius: 0px 0px 5px 5px;
-    padding: 10px 10px;
 
-    .main-footer-like::before {
-      content: "";
-      display: inline-block;
-      width: 20px;
-      height: 18px;
-      background: center/contain no-repeat url("../../assets/img/svg/like.svg");
-      vertical-align: middle;
-      transform: translateY(-20%);
-      margin: 0 5px;
-    }
-    .main-footer-comment::before {
-      content: "";
-      display: inline-block;
-      width: 20px;
-      height: 18px;
-      background: center/contain no-repeat url("../../assets/img/svg/com.svg");
-      vertical-align: middle;
-      margin: 0 5px;
+    .actions {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 10px;
+
+      .main-footer-like::before {
+        content: "";
+        display: inline-block;
+        width: 20px;
+        height: 18px;
+        background: center/contain no-repeat
+          url("../../assets/img/svg/like.svg");
+        vertical-align: middle;
+        transform: translateY(-20%);
+        margin: 0 5px;
+      }
+      .main-footer-comment::before {
+        content: "";
+        display: inline-block;
+        width: 20px;
+        height: 18px;
+        background: center/contain no-repeat url("../../assets/img/svg/com.svg");
+        vertical-align: middle;
+        margin: 0 5px;
+      }
     }
   }
 }
