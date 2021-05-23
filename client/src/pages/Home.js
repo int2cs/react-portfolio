@@ -1,13 +1,22 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Aside, AsideNavigation, MainNavigation, Card } from "../components";
-import { bdd } from "../bdd";
+// import { bdd } from "../bdd";
+import axios from "axios";
 
 const Home = () => {
-  const [data] = useState(bdd);
+  const [data, setData] = useState();
+
+  useEffect(() => {
+    axios.get("http://localhost:3050/").then((res) => {
+      setData(res.data);
+      console.log(res.data);
+    });
+  }, []);
   return (
     <div>
       <MainNavigation />
       <div className="container">
+        <embed src="" type="" />
         <AsideNavigation />
         <div className="main">
           {data.map((res, index) => (
@@ -24,6 +33,7 @@ const Home = () => {
         </div>
         <Aside />
       </div>
+      <embed src="" type="" />
     </div>
   );
 };

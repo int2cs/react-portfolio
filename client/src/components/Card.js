@@ -19,7 +19,9 @@ const Card = (props) => {
           <img src={img} alt={"Projet " + title} />
         </a>
         <div className="contenue">
-          <h3>{title}</h3>
+          <a href={link} target="_blank" rel="noopener noreferrer">
+            <h3>{title}</h3>
+          </a>
           <p>{content}</p>
         </div>
       </article>
